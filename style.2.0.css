@@ -133,10 +133,13 @@ background-color: #000;
 }
 
 .Empty{
-text-align: center;
-font-size:20px;
+font-size:30px;
 color: black;
 font-weight: bolt;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button {
@@ -166,4 +169,14 @@ padding-top: 270px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.filt{
+padding-top: 30px;
+padding-left: 300px;
+padding-right: 300px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(10px, 1fr)); 
+grid-template-rows: repeat(3, 1fr);
+gap: 10px;
 }
